@@ -91,9 +91,7 @@ func table(coln []string, colw []int, rows [][]string, b bd) (table string) {
 	bttm := []rune{b.UR}
 	//遍历所有行宽
 	for i, v := range colw {
-		//绘制左上角格子
 		head[0] = append(head[0], []rune(repeat(v+2, b.H)+string(b.HD))...)
-
 		head[1] = append(head[1], []rune(" "+coln[i]+repeat(v-len(coln[i])+1, ' ')+string(b.V))...)
 		head[2] = append(head[2], []rune(repeat(v+2, b.H)+string(b.VH))...)
 		bttm = append(bttm, []rune(repeat(v+2, b.H)+string(b.HU))...)
