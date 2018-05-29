@@ -40,7 +40,7 @@ $ go run table.go
 * Emoji(控制台输出表情)
     原作者 [@kyokomi](https://github.com/kyokomi/emoji)
 ```
-- 效果展示
+- 效果展示(!!!直接用gitbash测试，windows不支持!!!)
 $ go test
 🍺   ビール!!!
 PASS
