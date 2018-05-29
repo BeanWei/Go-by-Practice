@@ -23,6 +23,7 @@ $ go run weather-cli.go
 * Table(控制台输出表格)
     原作者 [@modood](https://github.com/modood/table)
     ！！！ 完整版请参照原版 ！！！
+- [Go反射详解](http://www.cnblogs.com/golove/p/5909541.html)
 ```
 *测试代码直接写在源码里面了*
 -效果展示
@@ -34,4 +35,10 @@ $ go run table.go
 │ Targaryen │ dragon   │ Fire and Blood   │
 │ Lannister │ lion     │ Hear Me Roar     │
 └───────────┴──────────┴──────────────────┘
+```
+
+* Emoji(控制台输出表情)
+    原作者 [@kyokomi](https://github.com/kyokomi/emoji)
+```
+- 效果展示
 ```
