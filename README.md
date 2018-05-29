@@ -41,4 +41,8 @@ $ go run table.go
     原作者 [@kyokomi](https://github.com/kyokomi/emoji)
 ```
 - 效果展示
+$ go test
+🍺   ビール!!!
+PASS
+ok      github.com/BeanWei/Go-by-Practice/Emoji 0.078s
 ```
