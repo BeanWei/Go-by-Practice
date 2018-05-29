@@ -22,6 +22,7 @@ $ go run weather-cli.go
 
 * Table(控制台输出表格)
     原作者 [@modood](https://github.com/modood/table)
+    ！！！ 完整版请参照原版 ！！！
 ```
 *测试代码直接写在源码里面了*
 -效果展示
