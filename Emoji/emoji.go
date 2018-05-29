@@ -94,9 +94,11 @@ func compile(x string) string {
 	return output.String()
 }
 
+//*[]interface{} 空接口  接受任何类型
 func compileValues(a *[]interface{}) {
 	for i, x := range *a {
 		if str, ok := x.(string); ok {
+			fmt.Println(str)
 			(*a)[i] = compile(str)
 		}
 	}
